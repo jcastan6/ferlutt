@@ -1,0 +1,347 @@
+root { 
+    display: block;
+}
+
+@media screen and (max-width:768px) { 
+    .mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .cardpic{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    .col{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .smallimg{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+    }
+
+    .drawrow{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    .drawingpic{
+        cursor: pointer;
+        width:350px;
+        height: fit-content;
+    }
+    .centeredcol {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .indexrow{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1181px) { 
+
+    .cardpic{
+        width: 180px;
+        height: auto;
+        background-color: black;
+    }
+
+    .smallimg{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+        width:107%;
+        overflow: visible;
+    }
+    .drawingpic{
+        cursor: pointer;
+        width:700px;
+        height: fit-content;
+    }
+
+    .drawrow{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .centeredcol {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 5px;
+    }
+    .indexrow{
+        height: 600px;
+    }
+
+    .innerpic{
+        overflow: visible;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:990px) { 
+    .innerpic{
+        width:100%;
+        overflow: visible;
+    }
+
+    .cardpic{
+        width: 180px;
+        height: auto;
+        background-color: black;
+    }
+
+    .smallimg{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+        width:140%;
+        overflow: visible;
+    }
+
+    .centeredcol {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding: 30px;
+    }
+
+    .drawingpic{
+        cursor: pointer;
+        width:auto;
+        height: fit-content;
+    }
+
+    .indexrow{
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width:1180px) { 
+    .cardpic{
+        width: 180px;
+        height: auto;
+        background-color: black;
+    }
+
+    .smallimg{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+        width:185%;
+    }
+
+    .centeredcol {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .drawingpic{
+        cursor: pointer;
+        width:auto;
+        height: fit-content;
+    }
+
+    .indexrow{
+        height: 600px;
+    }
+
+    .innerpic{
+        width:150%;
+        height:150%;
+        overflow: visible;
+    }
+}
+
+
+
+nav{
+    width: auto;
+}
+
+.nav-item{
+    margin-top: 4px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:black;
+    overflow-x: hidden;
+}
+
+.centered{
+    text-align: center;
+    padding: 10px;
+}
+
+.sansSerif{
+    font-family: sans-serif;
+}
+
+.btn{
+    width: auto;
+    display: center;
+    text-align: center;
+}
+
+.jumbotron{
+    color: black; 
+    background-color: black;
+    opacity: 57;
+    width: 100%;
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.bigimg{ 
+    cursor: pointer;
+    filter: grayscale(100%);
+    width: fit-content;
+    height: 100%;
+}
+
+.innerpic img{
+    transition: all 1.5s ease;
+}
+
+.innerpic:hover img{
+    filter: grayscale(0%);
+}
+
+a.cooltext{
+    color: black;
+    filter: grayscale(100%);
+    transition: all .4s ease;
+}
+
+.dropdown-item{
+    width: auto;
+}
+
+a.cooltext:hover {
+    margin: -3px -3px 3px 3px;
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+    filter: grayscale(0%);
+
+}
+
+a.active{
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+a.dropdowntext{
+    margin-left:1px;
+    color: black;
+    filter: grayscale(100%);
+    transition: all .4s ease;
+}
+
+a.dropdowntext:hover {
+    overflow: hidden;
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+    filter: grayscale(0%);
+}
+
+a.brandtitle{
+    overflow: hidden;
+    color: black;
+    filter: grayscale(100%);
+    transition: all .4s ease;
+}
+
+a.brandtitle:hover {
+    overflow: hidden;
+    margin: -3px 13px 3px 3px;
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+    filter: grayscale(0%);
+}
+
+.drawcard{
+    cursor: pointer;
+    background-color: white;
+    width:auto;
+    width:300px; 
+    padding:7px;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.card-text{
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.indexcont{
+    padding: 10px;
+}
+
+.modal-content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(0,0,0,0);
+}
+
+.modal-body{
+    width: 100%;
+    background-color: black;
+}
+
+.fade{
+    transition: all 1s ease;
+}
+
+row{
+    width:100%;
+}
+
+canvas {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+.nanpic{
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%; width: 75%; overflow: hidden; position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
